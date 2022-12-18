@@ -4,5 +4,7 @@ main: net.liqht.liqhtlab.LiqhtLab
 api-version: 1.19
 authors: [ Liqht_ ]
 commands:
-  rizzwand:
-    description: gives an admin a wand that can kill any player by looking at them
+  hades:
+    description: gives an admin a scythe that can insta-kill any player
+  vanish:
+    description: vanishes an admin so that no one can see them in tab or in chat
