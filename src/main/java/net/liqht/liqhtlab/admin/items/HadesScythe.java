@@ -48,7 +48,6 @@ public class HadesScythe implements CommandExecutor, Listener {
                     true, true, true));
             player.addPotionEffect(new PotionEffect(PotionEffectType.GLOWING, 200, 5,
                     true, true, true));
-            player.sendMessage(ChatColor.DARK_PURPLE + "You have activated the true powers of Hades for 10 seconds!");
         }
     }
 }

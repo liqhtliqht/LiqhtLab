@@ -21,6 +21,7 @@ public class ItemManager {
         meta.setDisplayName(ChatColor.DARK_RED + "Hades");
         meta.setLore(Arrays.asList(ChatColor.RED + "The Admin's Most Powerful Weapon"));
         meta.addEnchant(Enchantment.DAMAGE_ALL, 10000, true);
+        meta.setCustomModelData(1);
         item.setItemMeta(meta);
         hadesScythe = item;
     }
